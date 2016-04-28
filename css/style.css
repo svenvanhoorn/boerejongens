@@ -34,20 +34,46 @@
 
 /* Landing page */
 .contentbox {
-	height: 1000px;
+	height: 720px;
 	background: url("../images/logo/boerejoengen_logo_vectorized.png") no-repeat center;
+	background-size: 48% 75%;
 }
 
-#close-it {
-  display: block;
-  float: right;
-  position: relative;
-  top: -10px;
-  right: -10px;
+.contentbox #close-it {
+  top: 50px;
+  right: -50px;
   size: 20px;
+  color: black;
 }
 
 .invisiblebox {
+	height: 700px;
+	margin-top: -5%;
+	margin-left: -1%;
+	padding: -20px;
+	margin-bottom: -30px;
+}
+
+#overage {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#overage button{
+	bottom: -40px;
+	margin: 0 auto;
+	border-radius: 10px;
+}
+
+#buttondiv {
+	margin-bottom: 50px;
+}
+
+#BJLogo {
 	
 }
+
+
+
+
 
