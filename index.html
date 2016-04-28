@@ -23,7 +23,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/other.js"></script>
 
-
+	<div class="main-content">
 	<div class="bs-component">
 		<nav class="navbar navbar-default">
 			<div class="container-fluid">
@@ -56,15 +56,49 @@
 				</div>
 			</div>
 		</nav>
-		<div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div></div>
+		<div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div>
+	</div>
+	
+		<div class="jumbotron">
+			
+		</div>
 
-<div class="page-header">
-          <div class="row">
-            <div class="col-lg-12">
-              <h1 id="buttons">Buttons</h1>
-            </div>
-          </div>
-        </div>
+		<div class="container header-section">
+			<div class="row">
+				<div class="col-lg-12 headerbox">
+					<div id="headerwrap" class="text-center">
+						<h1>BOEREJONGENS</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="about-section">
+			<div class="container">
+				<div class="col-md-8 col-md-offset-4 centered">
+					<header>About</header>
+					<p></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+		<div class="invisiblebox">
+			<a href="#"><i class="fa fa-times" id="close-it2"></i></a>
+			<div class="container contentbox">
+				<div class="col-md-10 col-md-offset-1 centered" id="BJlogo">
+					<p> </p>
+				</div>
+			</div>
+		</div>
+
+		
+	<script>
+		$(document).ready(function(){
+			$(".invisiblebox").show();
+			$(".main-content").hide();
+		});
+	</script>
 
 	</body>
 

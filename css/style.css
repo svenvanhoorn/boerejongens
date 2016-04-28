@@ -1,3 +1,53 @@
 .navbar {
 
 }
+
+/*For header on every page */
+
+.header-section{
+	height: 150px;
+}
+.headerbox {
+	height: 80px;
+	display: block;
+}
+
+#headerwrap {
+	background-color: green;
+	border-radius: 50px;
+	width: 350px;
+	height: 100%;
+	margin: auto;
+}
+
+#headerwrap h1 {
+	vertical-align: middle;
+	text-align: center;
+	line-height: 75px;
+}
+
+.jumbotron {
+	background: url("../images/Boeren logo.jpg") no-repeat center;
+	
+	height: 500px;
+}
+
+/* Landing page */
+.contentbox {
+	height: 1000px;
+	background: url("../images/logo/boerejoengen_logo_vectorized.png") no-repeat center;
+}
+
+#close-it {
+  display: block;
+  float: right;
+  position: relative;
+  top: -10px;
+  right: -10px;
+  size: 20px;
+}
+
+.invisiblebox {
+	
+}
+
