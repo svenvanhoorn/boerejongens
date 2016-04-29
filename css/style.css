@@ -1,9 +1,74 @@
-.navbar {
-	margin-bottom: 0;
+.navbar-default {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+.navbar-default .navbar-brand {
+    color: #71544f;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-text {
+    color: #71544f;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #71544f;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #71544f;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #71544f;
+}
+.navbar-default .navbar-toggle {
+    border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #71544f;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #71544f;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #71544f;
+}
+.navbar-default .navbar-link {
+    color: #71544f;
+}
+.navbar-default .navbar-link:hover {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    background-color: #71544f;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #71544f;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+    background-color: #71544f;
 }
 
+
+
+
 .main-content {
-	background: url("https://s-media-cache-ak0.pinimg.com/736x/79/11/14/791114c9281e333688c9482a7349fd6d.jpg") repeat;
+	/*background: url("https://s-media-cache-ak0.pinimg.com/736x/79/11/14/791114c9281e333688c9482a7349fd6d.jpg") repeat;
+	*/
 }
 
 /*For green header on every page */
@@ -17,7 +82,7 @@
 }
 
 #headerwrap {
-	background-color: green;
+	background-color: rgba(92,184,92, 1);
 	border-radius: 50px;
 	width: 350px;
 	height: 100%;
@@ -86,6 +151,40 @@
 	
 }
 
+/* Footer */
+
+.footer {
+	background-color: #ffffff;
+    border-color: #ffffff;
+    color: #71544f;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+.footerbar {
+	margin: 0 auto;
+}
+
+.socialmedialinks {
+
+}
+
+.socialmedialinks ul {
+	list-style: none;
+}
+
+.socialmedialinks a i {
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	color: #71544f;
+	font-size: 20px;
+	line-height: 35px;
+}
+
+.socialmedialinks a:hover i{
+	color: #fff;
+}
 
 
 /* Contact Form */
