@@ -165,25 +165,32 @@
 	margin: 0 auto;
 }
 
+.footerbar address {
+	color: #71544f;
+	opacity: 0.7;
+}
+
 .socialmedialinks {
 
 }
 
 .socialmedialinks ul {
 	list-style: none;
+	display: inline;
 }
 
 .socialmedialinks a i {
-	width: 40px;
-	height: 40px;
+	width: 45px;
+	height: 45px;
 	border-radius: 100%;
 	color: #71544f;
-	font-size: 20px;
-	line-height: 35px;
+	font-size: 30px;
+	line-height: 50px;
+
 }
 
 .socialmedialinks a:hover i{
-	color: #fff;
+	color: rgb(92,184,92);
 }
 
 
