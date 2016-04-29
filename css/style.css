@@ -1,8 +1,12 @@
 .navbar {
-
+	margin-bottom: 0;
 }
 
-/*For header on every page */
+.main-content {
+	background: url("https://s-media-cache-ak0.pinimg.com/736x/79/11/14/791114c9281e333688c9482a7349fd6d.jpg") repeat;
+}
+
+/*For green header on every page */
 
 .header-section{
 	height: 150px;
@@ -26,17 +30,26 @@
 	line-height: 75px;
 }
 
+/* Jumbotron */
+
 .jumbotron {
-	background: url("../images/Boeren logo.jpg") no-repeat center;
-	
+	background: url("../images/Boerenjongen1.jpg") no-repeat center;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+	background-size: cover; 
 	height: 500px;
+	padding: 0 !important;
+	margin-top: 0;
 }
 
-/* Landing page */
+
+/* Home Landing page */
+
 .contentbox {
 	height: 720px;
-	background: url("../images/logo/boerejoengen_logo_vectorized.png") no-repeat center;
-	background-size: 48% 75%;
+	background: url("../images/boerejoengen_logo_landing.png") no-repeat center;
+	background-size: 80% 70%;
 }
 
 .contentbox #close-it {
@@ -51,7 +64,7 @@
 	margin-top: -5%;
 	margin-left: -1%;
 	padding: -20px;
-	margin-bottom: -30px;
+	margin-bottom: -40px;
 }
 
 #overage {
@@ -71,6 +84,29 @@
 
 #BJLogo {
 	
+}
+
+
+
+/* Contact Form */
+
+#contactwrap {
+	background-color: rgba(135, 135, 135, 0.2);
+	padding: 40px 20px;
+	color: #71544f;
+	margin-bottom: 70px;
+}
+
+#contactUs {
+	margin-bottom: 25px;
+}
+
+#submitbtn {
+	margin-top: 30px;
+}
+
+#submitbtn button {
+	border-radius: 5px;
 }
 
 
