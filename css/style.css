@@ -62,3 +62,14 @@
 	color: #ffffff;
 	background-color: #71544f;
 }
+
+/*style sheets locations*/
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.loc-lu {
+    list-style-type: none;
+}
