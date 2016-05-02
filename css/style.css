@@ -118,11 +118,12 @@
 
 /* Home Landing page */
 
+
 .contentbox {
-	height: 720px;
-	background: url("../images/boerejoengen_logo_landing.png") no-repeat center;
-	background-size: 80% 70%;
+	margin-top: 30px;
+
 }
+
 
 .contentbox #close-it {
   top: 50px;
@@ -131,13 +132,7 @@
   color: black;
 }
 
-.invisiblebox {
-	height: 700px;
-	margin-top: -5%;
-	margin-left: -1%;
-	padding: -20px;
-	margin-bottom: -40px;
-}
+
 
 #overage {
 	width: 200px;
@@ -152,10 +147,6 @@
 
 #buttondiv {
 	margin-bottom: 50px;
-}
-
-#BJLogo {
-	
 }
 
 /* Footer */
