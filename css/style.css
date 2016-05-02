@@ -222,6 +222,48 @@
 	border-radius: 5px;
 }
 
+/* location css */
+/*style sheets locations*/
+
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+
+.loc-header {
+    background-color: transparent;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 2px #000;
+}
+
+.location-box {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+.location-box h2 {
+	text-align: center;
+	padding-top: 0;
+}
+.location-box h3 {
+
+}
+
+.loc-lu {
+    list-style-type: none;
+    line-height: 200%;
+}
+
+.text-location {
+	line-height: 150%;
+}
+.info-location {
+
+}
+.map-location {
+    padding-top: 15px;
+}
 
 
 
