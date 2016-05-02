@@ -97,6 +97,7 @@
 
 /* Jumbotron */
 
+/*
 .jumbotron {
 	background: url("../images/Boerenjongen1.jpg") no-repeat center;
 	-webkit-background-size: cover;
@@ -106,6 +107,12 @@
 	height: 500px;
 	padding: 0 !important;
 	margin-top: 0;
+}
+*/
+
+.parallax-window {
+    min-height: 450px;
+    background: transparent;
 }
 
 

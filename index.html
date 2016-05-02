@@ -19,6 +19,9 @@
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+
 
 </head>
 
@@ -27,88 +30,7 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/other.js"></script>
 
-	<div class="main-content container-fluid">
-	    <div class="bs-component">
-	        <nav class="navbar navbar-default">
-	            <div class="container-fluid" id="bj-navbar">
-	                <div class="navbar-header">
-	                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	                        <span class="sr-only">Toggle navigation</span>
-	                        <span class="icon-bar"></span>
-	                        <span class="icon-bar"></span>
-	                        <span class="icon-bar"></span>
-	                    </button>
-	                    <a href="#" ><img src="./images/logo_small.png" width="200px"></a>
-	                </div>
-	                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-	                    <ul class="nav navbar-nav">
-	                        <li><a href="#menu">Menu <span class="sr-only">(current)</span></a></li>
-	                        <li><a href="#gallery">Gallery</a></li>
-	                        <li class="dropdown">
-	                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations <span class="caret"></span></a>
-	                            <ul class="dropdown-menu" role="menu">
-	                                <li><a href="#location1">West</a></li>
-	                                <li><a href="#location2">City Center</a></li>
-	                                <li><a href="#location3">Somewhere else</a></li>
-	                            </ul>
-	                        </li>
-	                        <li><a href="#">Contact</a></li>
-	                    </ul>
-	                </div>
-	            </div>
-	        </nav>
-    	
 
-		<div id="source-button" class="btn btn-primary btn-xs" style="display: none;">&lt; &gt;</div>
-	</div>
-	
-	<!--- Jumbotron Cover Picture -->
-		<div class="jumbotron">
-			
-		</div>
-	<!-- Oval Green Section Header -->
-		<div class="container header-section">
-			<div class="col-lg-12 headerbox">
-				<div id="headerwrap" class="text-center">
-					<h1>ABOUT US</h1>
-				</div>
-			</div>
-		</div>
-	<!-- About Section Home Page -->
-
-		<div class="about-section">
-			<div class="container">
-				<div class="col-md-8 col-md-offset-2 text-center">
-
-						<p>Boerejongens (slang word for proper "BoereNjongens") means "Farmer Boys" in Dutch.<br> Pronounce it like boor-a-yungens!</p>
-					
-						<p>The most modern coffeeshop in the city! Completely remodelled with white marble with a modern apothecary / drugstore theme!</p>
-				</div>
-			</div>
-		</div>
-
-	<!-- Footer Section -->
-
-		<footer class="footer container-fluid">
-	      <div class="row">
-		      <div class="col-md-4">
-		      	<a href="#" ><img src="./images/logo_small.png" width="200px"></a>
-		      </div>
-		      <div class="footerbar text-center col-md-4 col-md-offset-4">
-		      	<address>Baarsjesweg 239<br>1058 AA Amsterdam</address>	
-		      </div>
-		      <div class="socialmedialinks col-md-4 container text-center">
-		      	<ul class="list-inline">
-		      		<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-		      		<li><a href="#"><i class="fa fa-instagram"></i></a></li>
-		      		<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-		      	</ul>
-		      </div>
-	      </div>
-	    </footer>
-
-	</div>
-	
 <!-- Home Landing Page - Show & Hide w/ Home Page -->
 
 		<div class="invisiblewrap">
@@ -123,15 +45,15 @@
 			
 			<div class="centered btn-md-6 btn-md-offset-3" id="buttondiv">
 				<div id="overage">
-					<a href="#" class="enter"><button type="button" class="btn btn-success text-center">18+ Over</button></a>
+					<a href="about.html" class="enter"><button type="button" class="btn btn-success text-center">18+ Over</button></a>
 					<a href="http://google.com" class="exit"><button type="button" class="btn btn-danger text-center">Under 18</button></a>
 				</div>
 			</div>		
-
-	</div>
+		</div>
 		
 	<script>
 		$(document).ready(function(){
+			/* 
 			$(".main-content").hide();
 			$(".invisiblewrap").show();
 			
@@ -144,9 +66,18 @@
 			$(".exit").click(function(){
 				alert("Come Back When You Turn 18!");
 			})
+			*/
 
 		});
 	</script>
+
+<!-- 	<script>
+	$(document).ready(function(){
+		$('.parallax-window').parallax({imageSrc: 'images/Boerenjongen1.jpg'});
+	})
+	
+	</script>
+ -->
 
 	</body>
 
