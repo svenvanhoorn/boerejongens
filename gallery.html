@@ -28,6 +28,7 @@
 	<script src="js/pongstagr.am.min.js"></script>
 	<script src="js/other.js"></script>
 
+	<!-- Navbar gets imported from navbar.html using jQuery -->
 	<div id="includedNavbar"></div>
 
 
@@ -65,11 +66,6 @@
 
 
 	<script>
-// init navbar
-$(function(){
-	$("#includedNavbar").load("navbar.html"); 
-});
-
 // init instagram feed
 // since we don't have access to their real instagram account we're showing all results for hashtag 'boerejongens' 
 $('#pongsta').pongstgrm({
