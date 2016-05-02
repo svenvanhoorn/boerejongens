@@ -13,8 +13,14 @@
 
 	<!-- Bootstrap Core CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/pongstagr.am.min.css" rel="stylesheet">
 	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Awesome Font -->
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
 
 
 </head>
@@ -22,45 +28,57 @@
 <body>
 	<script src="js/jquery-1.12.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="js/pongstagr.am.min.js"></script>
 	<script src="js/other.js"></script>
 
 
-	<div class="bs-component">
-		<nav class="navbar navbar-default">
-			<div class="container-fluid" id="bj-navbar">
+<!-- Home Landing Page - Show & Hide w/ Home Page -->
 
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a href="#" ><img src="./images/logo_small.png" width="200px"></a>
-				</div>
-				<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-					<ul class="nav navbar-nav">
-						<li><a href="#menu">Menu <span class="sr-only">(current)</span></a></li>
-						<li><a href="#gallery">Gallery</a></li>
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Locations <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="#location1">West</a></li>
-								<li><a href="#location2">City Center</a></li>
-								<li><a href="#location3">Somewhere else</a></li>
-							</ul>
-						</li>
-						<li><a href="#">Contact</a></li>
-					</ul>
-
+		<div class="invisiblewrap">
+			<div class="invisiblebox">
+				<div class="container contentbox">
+					
+					<div class="col-md-10 col-md-offset-1 centered" id="BJlogo">
+						<p> </p>
+					</div>
 				</div>
 			</div>
-		</nav>
-	</div>
+			
+			<div class="centered btn-md-6 btn-md-offset-3" id="buttondiv">
+				<div id="overage">
+					<a href="about.html" class="enter"><button type="button" class="btn btn-success text-center">18+ Over</button></a>
+					<a href="http://google.com" class="exit"><button type="button" class="btn btn-danger text-center">Under 18</button></a>
+				</div>
+			</div>		
+		</div>
+		
+	<script>
+		$(document).ready(function(){
+			/* 
+			$(".main-content").hide();
+			$(".invisiblewrap").show();
+			
+			$(".enter").click(function(){
+				$(".main-content").show();
+				$(".invisiblewrap").hide();
+			});
 
 
+			$(".exit").click(function(){
+				alert("Come Back When You Turn 18!");
+			})
+			*/
 
-</body>
+		});
+	</script>
 
-</html>
+<!-- 	<script>
+	$(document).ready(function(){
+		$('.parallax-window').parallax({imageSrc: 'images/Boerenjongen1.jpg'});
+	})
+	
+	</script>
+ -->
+
+	</body>
+
+	</html>

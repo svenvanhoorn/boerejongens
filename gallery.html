@@ -23,23 +23,35 @@
 	<script src="js/jquery-1.12.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/pongstagr.am.min.js"></script>
-	<script src="js/other.js"></script>
+	<script src="js/other2.js"></script>
 
 	<div id="includedNavbar"></div>
 
 
 
+	<div class="container-fluid">
+		<div class="row">
+		<div id="pongsta">
 
-	<div class="container" id="pongsta">
-		
-			<!-- gets filled by pongstagr.am plugin-->
-		
+				<!-- gets filled by pongstagr.am plugin-->
+			</div>
+		</div>
 	</div>
-
-<script>
+	<script>
+// init navbar
 $(function(){
-      $("#includedNavbar").load("navbar.html"); 
-    });
+	$("#includedNavbar").load("navbar.html"); 
+});
+
+// init instagram feed
+// since we don't have access to their real instagram account we're showing all results for hashtag 'boerejongens' 
+$('#pongsta').pongstgrm({
+	accessId: '679256982',
+	accessToken: '679256982.401c5ac.0a183542db5f4ae1b51caae21acadc1e',
+	show: 'boerejongens',
+	count: 16
+});
+
 </script>
 
 </body>
