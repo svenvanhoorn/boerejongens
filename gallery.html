@@ -9,12 +9,15 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>New website</title>
+	<title>Boerejongens - Gallery</title>
 
-	<!-- Bootstrap Core CSS -->
+	<!-- CSS -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/pongstagr.am.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 	<link href="css/style.css" rel="stylesheet">
+
+	<!-- CSS for pongstagr.am -->
+	<link href="css/pongstagr.am.min.css" rel="stylesheet">
 
 
 </head>
@@ -23,20 +26,44 @@
 	<script src="js/jquery-1.12.3.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/pongstagr.am.min.js"></script>
-	<script src="js/other2.js"></script>
+	<script src="js/other.js"></script>
 
 	<div id="includedNavbar"></div>
 
 
 
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
-		<div id="pongsta">
+			<h2><strong>Latest pictures from our friends on Instagram</strong> #boerejongens</h2>
+
+			<div id="pongsta">
 
 				<!-- gets filled by pongstagr.am plugin-->
 			</div>
 		</div>
 	</div>
+
+	<!-- Footer Section -->
+	
+	<footer class="footer container-fluid">
+		<div class="row">
+			<div class="col-md-4">
+				<a href="#" ><img src="./images/logo_small.png" width="200px"></a>
+			</div>
+			<div class="footerbar text-center col-md-4 col-md-offset-4">
+				<address>Baarsjesweg 239<br>1058 AA Amsterdam</address>	
+			</div>
+			<div class="socialmedialinks col-md-4 container text-center">
+				<ul class="list-inline">
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+
 	<script>
 // init navbar
 $(function(){
