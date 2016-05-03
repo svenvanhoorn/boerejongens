@@ -123,6 +123,9 @@
 	margin-bottom: 50px;
 }
 
+.map-location {
+	padding-top: 20px;
+}
 
 /* Footer */
 
@@ -191,6 +194,10 @@
 /* location css */
 /*style sheets locations*/
 
+.map-location {
+	padding-top: 55px;
+}
+
 .parallax-window {
     min-height: 400px;
     background: transparent;
@@ -230,6 +237,7 @@
 .map-location {
     padding-top: 15px;
 }
+
 
 
 
